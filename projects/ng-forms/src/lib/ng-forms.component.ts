@@ -8,13 +8,19 @@ import { Component, OnInit } from '@angular/core';
     </p>
   `,
   styles: [
-  ]
+  ],
 })
 export class NgFormsComponent implements OnInit {
 
-  constructor() { }
+  /**
+   * NgFormsComponent
+   */
+  public constructor() { }
 
-  ngOnInit(): void {
+  /**
+   * ngOnInit
+   */
+  public ngOnInit(): void {
   }
 
 }
